@@ -54,7 +54,7 @@ export default class Checkout {
     _getLastStep(){
         let lastStep = sessionStorage.getItem('step');
 
-        if(lastStep == null) {
+        if(lastStep == null && document.referrer) {
             let url = new URL(document.referrer);
             lastStep = url.pathname;
         }
