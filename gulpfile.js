@@ -14,7 +14,7 @@ const babel = require('gulp-babel');
 
 async function build() {
     const bundle = await rollup.rollup({
-        input: './src/main.js'
+        input: './src/Checkout.js'
     });
 
     return await bundle.write({
