@@ -2,7 +2,7 @@
   "name": "shopify-checkout-js",
   "version": "1.0.0",
   "description": "A javascript library to help customize Shopify checkout page",
-  "main": "index.js",
+  "main": "dist/checkout.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
